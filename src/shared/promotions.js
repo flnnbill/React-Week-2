@@ -1,9 +1,9 @@
 export const PROMOTIONS = [
     {
         id: 0,
-        name: "Mountain Adventure",
-        image: "/assets/images/breadcrumb-trail.jpg",
+        name: "Designs by Maureen",
+        image: "/assets/images/cover1.png",
         featured: true,
-        description: "Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras sed felis eget velit aliquet sagittis id consectetur. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida"
     }
 ]

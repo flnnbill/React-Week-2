@@ -4,30 +4,36 @@ import { Link } from 'react-router-dom';
 function Footer(props) {
     return (
         <footer className="site-footer">
-            <div className="container">
-                <div className="row">
-                    <div className="col-4 col-sm-2 offset-1">
-                        <h5>Links</h5>
-                        <ul className="list-unstyled">
-                            <li><Link to='/home'>Home</Link></li>
-                            <li><Link to='/directory'>Directory</Link></li>
-                            <li><Link to='/aboutus'>About</Link></li>
-                            <li><Link to='/contactus'>Contact</Link></li>
-                        </ul>
-                    </div>
-                    <div className="col-6 col-sm-3 text-center">
-                        <h5>Social</h5>
-                        <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram" /></a>{' '}
-                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>{' '}
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>{' '}
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube" /></a>
-                    </div>
-                    <div className="col-sm-4 text-center">
-                        <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+           <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-6 col-sm-5 text-center mb-5">
+                            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-pinterest" href="http://https://pinterest.com/"><i
+                                    class="fa fa-pinterest"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <div class=" col d-flex justify-content-center">"
+                    <div class="row">
+                        <ul><a href="home.html">Home</a></ul>
+
+
+                        <ul><a href="aboutus.html">About</a></ul>
+
+
+                        <ul><a href="gallery.html">Gallery</a></ul>
+
+
+                        <ul><a href="contactus.html">Contact</a></ul>
+                    </div>
+
+                </div>
         </footer>
     )
 }
